@@ -1,0 +1,109 @@
+@font-face {
+  font-family: 'PROMETHEUS';
+  src: url(PROMETHEUS.ttf);
+}
+
+body {
+  background-color: #81C784 !important;
+}
+
+.App {
+  font-family: 'Roboto';
+  font-weight: 300;
+}
+
+h1 {
+  padding: 20px;
+  font-weight: 100;
+}
+
+/* .vl {
+  width: 2px;
+  height: 90%;
+  border-left: 1px solid #BDBDBD;
+}
+
+.fixed-top {
+  left: 2.75vw !important;
+  right: 2.75vw !important;
+}
+
+#title {
+  margin: 0vw;
+  padding: 0vw;
+}
+
+#top-nav {
+  margin-top: .75vw;
+  background-color: white;
+  height: 6.5vw;
+  font-size: 1vw;
+  border-bottom: .1vw solid #BDBDBD;
+  font-weight: 300;
+}
+
+#side-nav {
+  font-size: 1.25vw;
+  text-align: center;
+  position: absolute;
+  left: 2.75vw;
+  border-right: .05vw solid black;
+  width: 12%;
+  height: 87vh;
+  overflow-y: auto;
+}
+
+.side-tab {
+  padding: 1.25vw .75vw !important;
+  cursor: pointer;
+}
+
+.nav-tab {
+  margin-left: 7vw;
+}
+
+#header-consts {
+  position: absolute !important;
+  right: 2.75vw !important;
+}
+
+#header-consts {
+  position: absolute !important;
+  right: 6vw !important;
+} */
+
+
+input[type=text] {
+  width: 60%;
+  margin: 5px !important;
+  padding: 8px;
+
+  border: 1px solid #616161;
+}
+
+input[type=submit] {
+  width: 40%;
+}
+
+#login-screen {
+  text-align: center;
+  position: absolute;
+  top: 18%;
+  left: 28%;
+}
+
+
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #B0BEC5;
+    border-radius: 3px;
+}
